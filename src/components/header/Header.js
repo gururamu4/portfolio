@@ -78,10 +78,10 @@ function Header() {
             </li>
           )}
           <li>
-            <a href="#contact">Contact Me</a>
+            <a href="/">Contact Me</a>
           </li>
           <li>
-            <a href="#">
+            <a href="#contact">
               <ToggleSwitch />
             </a>
           </li>
