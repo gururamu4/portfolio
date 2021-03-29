@@ -1,5 +1,5 @@
 import React, {useState, useEffect, lazy, Suspense} from "react";
-import {openSource} from "../../portfolio";
+import {openSource, gitProfile} from "../../portfolio";
 import Contact from "../contact/Contact";
 import Loading from "../loading/Loading";
 
@@ -15,27 +15,7 @@ export default function Profile() {
 
   useEffect(() => {
     if (openSource.showGithubProfile === "true") {
-      const getProfileData = () => {
-        fetch("/profile.json")
-          .then(result => {
-            if (result.ok) {
-              return result.json();
-            }
-            console.error(result);
-          })
-          .then(response => {
-            setProfileFunction(response.data.user);
-          })
-          .catch(function (error) {
-            setProfileFunction("Error");
-            console.log(
-              "Because of this error, contact section has reverted to default"
-            );
-            console.error(error);
-            openSource.showGithubProfile = "false";
-          });
-      };
-      getProfileData();
+      setProfileFunction(gitProfile.data.user);
     }
   }, []);
   if (
