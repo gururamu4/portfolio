@@ -13,7 +13,6 @@ import {
   achievementSection,
   bigProjects
 } from "../../portfolio";
-import image from '../../assets/images/snapchat-guru.svg'
 
 function Header() {
   const {isDark} = useContext(StyleContext);
