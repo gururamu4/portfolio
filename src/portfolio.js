@@ -240,7 +240,7 @@ const educationInfo = {
       schoolName: "Sastra University",
       logo: require("./assets/images/sastra.png"),
       subHeader: "Bachelor of Technology in Mechatronics(Robotics & IOT)",
-      duration: "September 2017 - April 2019",
+      duration: "June 2014 - April 2018",
       desc: "Participated in the research of 3d Servo Motor Design and Optimization",
       descBullets: [
         "Mechatronics is an interdisciplinary area of engineering that combines mechanical and electrical engineering and computer science",
@@ -277,10 +277,6 @@ const techStack = {
     },
     {
       Stack: "AWS SERVICES(Cloudfront, Lambda, Dynamodb, SES, S3 Bucket, EC2, Elastic Search, Elastic Container Registry, RDS, SQS, ECS, VPC, API GATEWAY, Route 53,SNS, Step Functions, AWS Connect)",
-      progressPercentage: "100%"
-    },
-    {
-      Stack: "TypeScript, JavaScript",
       progressPercentage: "100%"
     },
     {
