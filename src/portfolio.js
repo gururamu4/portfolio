@@ -24,7 +24,7 @@ export const gitProfile = {
   "data":{
      "user":{
         "name":null,
-        "bio":"Innovative Full Stack Developer with 3 years experience in react, angular, node, express, mongo, postgres, aws, microservice, docker, ci/cd",
+        "bio":"Innovative Full Stack Developer with experience in react, angular, node, express, mongo, postgres, aws, microservice, docker, ci/cd",
         "isHireable":false,
         "avatarUrl":"https://avatars.githubusercontent.com/u/44159423?u=298b4e17df2069a35f30f0a85edf320b8e076fce&v=4",
         "location":null,
@@ -140,7 +140,7 @@ export const gitProfile = {
 }
 const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/gururamu",
-  github: "https://github.com/gururamu4",
+  // github: "https://github.com/gururamu4",
   gmail: "gururamu4497@gmail.com",
   twitter: "https://twitter.com/guru_ram44",
   facebook: "https://www.facebook.com/guru.andiappan.7/",
@@ -301,10 +301,25 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Full-Stack Developer(SDE 3)",
+      company: "Walmart Global Tech",
+      companylogo: require("./assets/images/walmart_logo.gif"),
+      date: "From Oct 2021",
+      desc:
+        "Worked On Chatbot Which was offered as service which can be plugged in into any website, my role is lead and develop the full stack application using react, node, luis, rds(postgres), elastic Search",
+      descBullets: [
+          "Creating new Endpoints and APIS for various features that I will be implementing in Frontend",
+          `Creating new Features, functionality and capabilities using
+          React, Redux, Material UI and CSS Grid system and MonoRepo architecture`,
+          `Creating scalable and cost efficient solutions using aws offered services `,
+          `Implemented Email and Otp based Authentication`
+        ]
+    },
+    {
       role: "Senior Full Stack Developer",
       company: "Tricon Infotech",
       companylogo: require("./assets/images/tricon.png"),
-      date: "Aug 2020 – Present",
+      date: "Sept 2020 – Oct 2021",
       desc:
         `My Role is to create end to end features for our new product utilizing ReactJS,Redux in frontend and Node, express as MicroService in BackEnd. `,
       descBullets: [
@@ -316,25 +331,10 @@ const workExperiences = {
       ]
     },
     {
-      role: "Full-Stack Developer",
-      company: "GytWorkz",
-      companylogo: require("./assets/images/gytworkz.webp"),
-      date: "Feb 2020 – July 2020",
-      desc:
-        "Worked On Chatbot Which was offered as service which can be plugged in into any website, my role is develop api using lambda, rds(postgres), api gateway, route53, elastic Search",
-      descBullets: [
-          "Creating new Endpoints and APIS for various features that I will be implementing in Frontend",
-          `Creating new Features, functionality and capabilities using
-          React, Redux, Material UI and CSS Grid system and MonoRepo architecture`,
-          `Creating scalable and cost efficient solutions using aws offered services `,
-          `Implemented Email and Otp based Authentication`
-        ]
-    },
-    {
       role: "Full Stack Engineer",
       company: "Tata Consultancy Services",
       companylogo: require("./assets/images/tcs.png"),
-      date: "May 2018 – Jan 2020",
+      date: "May 2018 – March 2020",
       desc:
         "My Role is to Create New Interactive and Responsive pages and developing the rest apis for them",
       descBullets: [
