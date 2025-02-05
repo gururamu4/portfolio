@@ -197,24 +197,12 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "SASS",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript / TypeScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
       skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "Yarn",
-      fontAwesomeClassname: "fab fa-yarn"
     },
     {
       skillName: "SQL & NoSQL Databases (Postgres, MongoDB)",
